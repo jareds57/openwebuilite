@@ -1,0 +1,31 @@
+# Web Framework
+fastapi==0.115.7
+uvicorn[standard]==0.30.6
+
+# Data Validation
+pydantic==2.10.6
+python-multipart==0.0.18
+
+# HTTP Requests
+requests==2.32.3
+
+# Asynchronous Support
+aiohttp==3.11.11
+async-timeout
+
+# OpenAI API Client
+openai
+
+# Logging
+loguru==0.7.2
+
+# Miscellaneous Utilities
+python-socketio==5.11.3
+
+# Optionally consider adding these based on your application needs
+# for scheduling tasks or caching
+APScheduler==3.10.4
+aiocache
+
+# Testing
+pytest~=8.3.2
